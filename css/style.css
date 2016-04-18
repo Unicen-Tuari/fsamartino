@@ -9,38 +9,92 @@ body{
   background-attachment:fixed;
 }
 p{
-color: white;
-font-size: large;
+  color: white;
+  font-size: large;
 }
 #top_page {
   width: 100%;
-  height: 600px;
+  height: 500px;
+}
+.title_top{
+font-family: 'Black Ops One', cursive;
+  font-size: bolder;
+  color: #00db01;
+  font-size: 80px;
+  --text-shadow: -2px -2px 1px #ffffff, 2px 2px 1px #ffffff, -2px 2px 1px #ffffff, 2px -2px 1px #ffffff;
+  --text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+  text-shadow: -2px -2px 1px #373435, 2px 2px 1px #373435, -2px 2px 1px #373435, 2px -2px 1px #373435;
+
+  position: absolute;
+  right: 0%;
+  top: 38%;
+}
+.title_button{
+  font-family: 'Black Ops One', cursive;
+  font-size: bolder;
+  color: #00db01;
+  font-size: 60px;
+  --text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+  text-shadow: -2px -2px 1px #373435, 2px 2px 1px #373435, -2px 2px 1px #373435, 2px -2px 1px #373435;
+  --text-shadow: -2px -2px 1px #ffffff, 2px 2px 1px #ffffff, -2px 2px 1px #ffffff, 2px -2px 1px #ffffff;
+  position: absolute;
+  right: 0%;
+  top: 49%;
+}
+
+.img_log_in{
+  width: 65%;
+  height: 65%;
+}
+.img_log_out{
+  position: absolute;
+  top: 13%;
 }
 
 #container {
   width: 100%;
-  height: 1000px;
-  background-image: url(images/fondo-negro.png);
+  height: 800px;
+  background-image: url(images/black_neon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#intern_container {
+  width: 94%;
+  height: 800px;
+  opacity: 0.8;
+  background-color: #151515;
   border-radius: 20px 20px 20px 20px;
+  position: absolute;
+  right: 3%;
 }
 
-.menu {
-  width: 50%;
+.menu_right {
+  width: 53%;
   height: 563px;
   position: absolute;
   right: 0%;
   top: 10%;
 }
-.menu li {
+.menu_left{
+  width: 47%;
+  height: 563px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+.menu_right li {
   display: inline;
-	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
   font-size: 20px;
-	font-weight: 900;
-
+  font-weight: 900;
 }
 
-.menu li a {
+.menu_right li a {
   padding-right: 3ex;
   text-decoration: none;
   color: #ffffff;
+}
+
+.menu_right li a:hover {
+  color:  ‎#009150;
 }
