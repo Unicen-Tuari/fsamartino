@@ -21,10 +21,7 @@ font-family: 'Black Ops One', cursive;
   font-size: bolder;
   color: #00db01;
   font-size: 80px;
-  --text-shadow: -2px -2px 1px #ffffff, 2px 2px 1px #ffffff, -2px 2px 1px #ffffff, 2px -2px 1px #ffffff;
-  --text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
   text-shadow: -2px -2px 1px #373435, 2px 2px 1px #373435, -2px 2px 1px #373435, 2px -2px 1px #373435;
-
   position: absolute;
   right: 0%;
   top: 38%;
@@ -34,8 +31,6 @@ font-family: 'Black Ops One', cursive;
   font-size: bolder;
   color: #00db01;
   font-size: 60px;
-  --text-shadow: -2px -2px 1px #ffffff, 2px 2px 1px #ffffff, -2px 2px 1px #ffffff, 2px -2px 1px #ffffff;
-  --text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
   text-shadow: -2px -2px 1px #373435, 2px 2px 1px #373435, -2px 2px 1px #373435, 2px -2px 1px #373435;
   position: absolute;
   right: 0%;
@@ -43,8 +38,8 @@ font-family: 'Black Ops One', cursive;
 }
 
 .img_log_in{
-  width: 65%;
-  height: 65%;
+  width: 35%;
+  height: 35%;
 }
 .img_log_out{
   position: absolute;
