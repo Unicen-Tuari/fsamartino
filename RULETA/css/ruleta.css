@@ -1,19 +1,76 @@
+
 .saldo_div{
-  background-color: #000000;
-  width: 100%;
+  background-color: #FFAA00;
+  width: 540px;
   height: 50px;
   border-radius: 10px 10px 10px 10px ;
 }
 #saldo {
-  color: #ffffff;
+  color: #000000;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-weight: bolder;
   position: absolute;
-  right: 4%;
+  right: 62%;
   top: 14%;
 }
-
 .saldo_div p{
-  color: #ffffff;
+  color: #000000;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-weight: bolder;
   position: absolute;
-  right: 15%;
+  right: 66%;
+}
 
+.resultado_div{
+  background-color: #FF7C00;
+  width: 540px;
+  height: 50px;
+  border-radius: 10px 10px 10px 10px ;
+  position: absolute;
+  top: 33%;
+}
+
+.resultado_div p{
+  color: #000000;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-weight: bolder;
+  position: absolute;
+  left: 2%;
+}
+#resultado{
+  color: #000000;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-weight: bolder;
+  position: absolute;
+  right: 66%;
+  top: 33%
+}
+
+.Numero_y_ruleta{
+  background-color: #FF3900;
+  width: 540px;
+  height: 50px;
+  border-radius: 10px 10px 10px 10px ;
+  position: absolute;
+  top: 61%;
+}
+
+.Numero_y_ruleta p{
+  color: #000000;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-weight: bolder;
+  position: absolute;
+  left: 2%;
+}
+
+#numero{
+  position: absolute;
+  right: 39%;
+  top: 33%;
+}
+
+#boton{
+  position: absolute;
+  right: 7%;
+  top: 33%;
 }
