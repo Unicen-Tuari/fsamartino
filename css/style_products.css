@@ -86,7 +86,7 @@ p{
 .intern_container {
   width: 94%;
   height: 100%;
-  opacity: 0.8;
+  opacity: 0.9;
   background-color: #151515;
   border-radius: 20px 20px 20px 20px;
   position: absolute;
@@ -115,7 +115,7 @@ p{
 }
 
 
-
+/* Desde acá será la parte de las listas */
 
 .list_expansive{
   position: absolute;
@@ -181,6 +181,7 @@ p{
   border-left-color: #00db01;
 }
 
+/* de aca en adelante sera la parte de las tablas*/
 
 .Table_Prod{
   position: absolute;
@@ -209,4 +210,141 @@ p{
     color: white;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
     font-weight: bolder;
+}
+
+/* Desde acá será la parte de cada producto*/
+
+
+.prod_container{
+  height: 600px;
+  width: 1250px;
+  background-color: #000000;
+  border-radius: 10px;
+  position: absolute;
+  top: 250px;
+  left: 7px;
+}
+.prod_container h1{
+  padding: 10px;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-weight: bolder;
+  color: #00db01;
+  text-align: center;
+}
+
+.imagen_jpg{
+  height: 268px;
+  width: 268px;
+  position:absolute;
+  border-radius: 10px;
+  top: 3px;
+  left: 3px;
+}
+
+.img_prod{
+  height: 274px;
+  width: 274px;
+  background-color: #00db01;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.img_complete{
+  position: absolute;
+  top: 120px;
+  left: 30px;
+}
+
+.body_prod{
+
+}
+
+.price{
+  width: 269.55px;
+  height: 80px;
+  border-style: solid;
+  border-color: #00db01;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: #373435;
+  position: absolute;
+  top: 120px;
+  right: 30px;
+}
+.title_box{
+  font-size: 15px;
+  padding: 2px;
+  margin:2px;
+  text-align: center;
+  color: #00db01;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+.price_total{
+  font-size: 40px;
+  padding: 2px;
+  margin:2px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+/*Boton de compra*/
+.button_final{
+  margin: 0;
+  padding: 0;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  position: absolute;
+  top: 215px;
+  right: 30px;
+}
+#wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+section button {
+  margin: 0 auto;
+  font-size: 30px;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: #00db01;
+  border: 1px solid transparent;
+  color: #000000;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+section button:hover {
+  background-color: #000000;
+  color: #00db01;
+  border-color: #00db01;
+}
+
+/*Descripcion del producto*/
+
+.description_prod{
+  position: absolute;
+  top: 120px;
+  right: 322px;
+}
+
+.box_desc{
+  width: 600px;
+  height: 400px;
+  border-style: solid;
+  border-color: #00db01;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: #373435;
+
 }

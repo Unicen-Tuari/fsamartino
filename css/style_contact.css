@@ -161,7 +161,7 @@ input, textarea, select {
   background-color: #00db01;
 }
 .boxes{
-  position: relative;
+  position: absolute;
   left: 262px;
 }
 
