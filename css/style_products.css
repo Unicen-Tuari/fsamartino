@@ -4,9 +4,9 @@
 }
 
 body{
-  width: 100%;
+  width: 1280px;
   background-color: #00db01;
-  background-size: 100%;
+  background-size:cover;
 }
 
 p{
@@ -16,8 +16,8 @@ p{
   margin: 20px;
 }
 .tool_bar {
-  background-image: url(images/toolbar_1.png);
-  width: 100%;
+  background-image: url(../images/toolbar_1.png);
+  width: 1350px;
   height: 100px;
   position:fixed;
   left: 0.5%;
@@ -39,7 +39,7 @@ p{
 }
 .img_log_out{
   position: absolute;
-  top: 1%;
+  top: 10%;
   left: 17%;
 }
 .menu_right {
@@ -76,7 +76,7 @@ p{
 .extern_container{
   width: 100%;
   height: 100%;
-  background-image: url(images/black_neon.jpg);
+  background-image: url(../images/black_neon.jpg);
   background-repeat:no-repeat;
   background-size: 100%;
   position: absolute;
@@ -119,8 +119,8 @@ p{
 
 .list_expansive{
   position: absolute;
-  top: 10%;
-  left: 2%;
+  top: 80px;
+  left: 20px;
 }
 
 #menu {
@@ -179,4 +179,34 @@ p{
 }
 #menu ul ul ul li a:hover {
   border-left-color: #00db01;
+}
+
+
+.Table_Prod{
+  position: absolute;
+  right: 350px;
+  top:250px;
+}
+
+.Table_Prod table{
+  background-color: #373435;
+  width: 500px;
+  height: 250px;
+  border-collapse: collapse;
+}
+
+.Table_Prod td,th{
+  border: 2px solid #00db01;
+  border-collapse: collapse;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  color: #FFFFFF;
+  padding: 10px;
+
+}
+
+.Table_Prod th {
+    background-color: #00db01;
+    color: white;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    font-weight: bolder;
 }

@@ -23,7 +23,7 @@ function disminuyeSaldo(){
 }
 
 function spinRuleta (){
-  return Math.floor((Math.random()*9));
+  return Math.floor((Math.random()*10));
 }
 
 function tirarRuleta(){
@@ -51,4 +51,8 @@ function tirarRuleta(){
     document.getElementById('saldo').innerHTML="$" + saldo;
   }
   document.getElementById('resultado').innerHTML= numeroRuleta;
+}
+
+function apuesta (numeroApuesta){
+  document.getElementById('numero').value=numeroApuesta;
 }

@@ -4,9 +4,9 @@
 }
 
 body{
-  width: 100%;
+  width: 1280px;
   background-color: #00db01;
-  background-size: 100%;
+  background-size:cover;
 }
 
 p{
@@ -16,8 +16,8 @@ p{
   margin: 20px;
 }
 .tool_bar {
-  background-image: url(images/toolbar_1.png);
-  width: 100%;
+  background-image: url(../images/toolbar_1.png);
+  width: 1350px;
   height: 100px;
   position:fixed;
   left: 0.5%;
@@ -39,7 +39,7 @@ p{
 }
 .img_log_out{
   position: absolute;
-  top: 1%;
+  top: 10%;
   left: 17%;
 }
 .menu_right {
@@ -76,7 +76,7 @@ p{
 .extern_container{
   width: 100%;
   height: 100%;
-  background-image: url(images/black_neon.jpg);
+  background-image: url(../images/black_neon.jpg);
   background-repeat:no-repeat;
   background-size: 100%;
   position: absolute;
@@ -99,21 +99,17 @@ p{
 	min-height: 450px;
 }
 
-#style_scroll::-webkit-scrollbar-track
-{
+#style_scroll::-webkit-scrollbar-track{
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	background-color: #373435;
 }
 
-#style_scroll::-webkit-scrollbar
-{
+#style_scroll::-webkit-scrollbar{
 	width: 10px;
 	background-color: #F5F5F5;
 }
 
-#style_scroll::-webkit-scrollbar-thumb
-{
+#style_scroll::-webkit-scrollbar-thumb{
 	background-color: #00db01;
 	border: 2px solid #373435;
-}
 }
