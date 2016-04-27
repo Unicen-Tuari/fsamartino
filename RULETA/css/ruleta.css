@@ -10,15 +10,15 @@
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
   font-weight: bolder;
   position: absolute;
-  right: 62%;
-  top: 14%;
+  left: 455px;
+  top: 25px;
 }
 .saldo_div p{
   color: #000000;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
   font-weight: bolder;
   position: absolute;
-  right: 66%;
+  left: 400px;
 }
 
 .resultado_div{
@@ -27,7 +27,7 @@
   height: 50px;
   border-radius: 10px 10px 10px 10px ;
   position: absolute;
-  top: 33%;
+  top: 58px;
 }
 
 .resultado_div p{
@@ -42,17 +42,17 @@
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
   font-weight: bolder;
   position: absolute;
-  right: 66%;
-  top: 33%
+  left: 240px;
+  top: 18px;
 }
 
 .Numero_y_ruleta{
   background-color: #FF3900;
   width: 540px;
-  height: 50px;
+  height: 230px;
   border-radius: 10px 10px 10px 10px ;
   position: absolute;
-  top: 61%;
+  top: 108px;
 }
 
 .Numero_y_ruleta p{
@@ -65,12 +65,51 @@
 
 #numero{
   position: absolute;
-  right: 39%;
-  top: 33%;
+  right: 268px;
+  top: 8px;
+  width: 105px;
 }
 
 #boton{
   position: absolute;
-  right: 7%;
-  top: 33%;
+  right: 125px;
+  top: 37px;
+}
+
+.list_style{
+  list-style:none;
+  position: relative;
+  left: 117px;
+  top: 0px;
+}
+
+.list_style li a {
+  text-decoration: none;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-weight: bolder;
+  color: #000000;
+  padding: 2px;
+}
+
+.list_style li a:hover {
+  color: #FF3900;
+  padding: 2px;
+  background-color: #000000;
+}
+.acept{
+  background-color: #FF0000;
+  width: 540px;
+  height: 60px;
+  position: relative;
+  top: 264px;
+  border-radius: 10px 10px 10px 10px ;
+}
+.acept p{
+  padding: 0px;
+  margin: 10px;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-weight: bolder;
+  position: relative;
+  left: 2%;
+  top: 8px;
 }
