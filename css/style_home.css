@@ -14,7 +14,17 @@ p{
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
   font-size: large;
   margin: 20px;
+  text-align: center;
 }
+
+h1{
+  padding: 10px;
+  margin: 4px;
+  color: #00db01;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  text-align: center;
+}
+
 .tool_bar {
   background-image: url(../images/toolbar_1.png);
   width: 1350px;
@@ -98,7 +108,7 @@ p{
 .force-overflow{
 	min-height: 450px;
 }
-
+/*SCROLLBAR VERDE*/
 #style_scroll::-webkit-scrollbar-track{
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	background-color: #373435;
@@ -112,4 +122,130 @@ p{
 #style_scroll::-webkit-scrollbar-thumb{
 	background-color: #00db01;
 	border: 2px solid #373435;
+}
+/*Oferta de la semana*/
+
+.imagen_jpg{
+  height: 268px;
+  width: 268px;
+  position:absolute;
+  border-radius: 10px;
+  top: 3px;
+  left: 3px;
+}
+
+.img_prod{
+  height: 274px;
+  width: 274px;
+  background-color: #00db01;
+  position: absolute;
+  border-radius: 10px;
+}
+.img_offert_1 , .img_offert_2{
+  position: absolute;
+  top: 170px;
+}
+.img_offert_1{
+  left: 100px;
+}
+.img_offert_2{
+  left: 480px;
+}
+.fontMAX{
+  position: absolute;
+  top:240px;
+  left: 380px;
+}
+.fontMAX p{
+  color: #00db01;
+  font-size: 100px;
+}
+
+/*Boton de compra*/
+.button_final{
+  margin: 0;
+  padding: 0;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  position: absolute;
+  top: 351px;
+  right: 90px;
+}
+#wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+section button {
+  margin: 0 auto;
+  font-size: 30px;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: #00db01;
+  border: 1px solid transparent;
+  color: #000000;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+section button:hover {
+  background-color: #000000;
+  color: #00db01;
+  border-color: #00db01;
+}
+/*Precios final y regular*/
+.price_old , .price_new{
+  width: 269.55px;
+  height: 80px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: #373435;
+}
+.price_new{
+border-color: #00db01;
+position: absolute;
+top: 267px;
+right: 90px;
+}
+.price_old{
+  border-color: #FF0000;
+  position: absolute;
+  top: 183px;
+  right: 90px;
+}
+.title_box_old , .title_box_new{
+  font-size: 15px;
+  padding: 2px;
+  margin:2px;
+  text-align: center;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+.title_box_old{
+  color: #FF0000;
+}
+.title_box_new{
+  color: #00db01;
+}
+.price_total_old , .price_total_new{
+  font-size: 40px;
+  padding: 2px;
+  margin:2px;
+  text-align: center;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+.price_total_old{
+  color: #FF0000;
+  text-decoration: line-through;
+}
+.price_total_new{
+  color: #FFFFFF;
 }
