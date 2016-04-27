@@ -206,10 +206,10 @@ p{
 }
 
 .Table_Prod th {
-    background-color: #00db01;
-    color: white;
-    font-family: Futura,Trebuchet MS,Arial,sans-serif;
-    font-weight: bolder;
+  background-color: #00db01;
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-weight: bolder;
 }
 
 /* Desde acá será la parte de cada producto*/

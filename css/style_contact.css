@@ -97,22 +97,22 @@ p{
 }
 
 .force-overflow{
-	min-height: 450px;
+  min-height: 450px;
 }
 /*Scrollbar verde*/
 #style_scroll::-webkit-scrollbar-track{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #373435;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #373435;
 }
 
 #style_scroll::-webkit-scrollbar{
-	width: 10px;
-	background-color: #F5F5F5;
+  width: 10px;
+  background-color: #F5F5F5;
 }
 
 #style_scroll::-webkit-scrollbar-thumb{
-	background-color: #00db01;
-	border: 2px solid #373435;
+  background-color: #00db01;
+  border: 2px solid #373435;
 }
 
 .intern_container h1{
@@ -124,12 +124,12 @@ p{
 }
 
 .intern_container h2{
-    padding: 4px;
-    margin: 10px;
-    color: #FFFFFF;
-    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  padding: 4px;
+  margin: 10px;
+  color: #FFFFFF;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
- /*Estructura del contacto*/
+/*Estructura del contacto*/
 .contact_us{
   position: absolute;
   left:400px;
