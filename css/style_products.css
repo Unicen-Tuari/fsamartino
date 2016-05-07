@@ -10,10 +10,16 @@ body{
 }
 
 p{
-  color: white;
+  color: #FFFFFF;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
   font-size: large;
   margin: 20px;
+}
+.no_style_link{
+  color: white;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-size: large;
+  text-decoration: none;
 }
 .tool_bar {
   background-image: url(../images/toolbar_1.png);
