@@ -1,3 +1,9 @@
+body{
+background-image: url("images/background.jpg");
+}
+p{
+color: #FFF;
+}
 .btn-red{
 background-color: #F00;
 color: #FFF;
@@ -6,4 +12,28 @@ color: #FFF;
 .btn-black{
 background-color:  #000;
 color: #FFF;
+}
+
+.numero-ruleta{
+	color: #FFF;
+	font-size:24px;
+	width:100px;
+	height:100px;
+	display:inline-block;
+	background-color: #000;
+  border-style: solid;
+  border-color: #FFF;
+	text-align:center;
+	line-height: 100px;
+	margin-top: 0px;
+	margin-right: 0px;
+	cursor: pointer;
+  float:right;
+}
+#llenarRuleta{
+  width: 100px;
+}
+#btnllenarRuleta{
+  background-color: #846;
+  color: #FFF;
 }
