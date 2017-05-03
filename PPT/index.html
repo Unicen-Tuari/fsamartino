@@ -11,15 +11,25 @@
   </head>
   <body>
 
-    <ul>
-      <li class="option" value="0">Piedra</li>
-      <li class="option" value="1">Papel</li>
-      <li class="option" value="2">Tijera</li>
-    </ul>
+    <div class="container main">
+      <div class="row">
+        <div class="col-xs-12">
+          <ul>
+            <li class="option" value="0">Piedra</li>
+            <li class="option" value="1">Papel</li>
+            <li class="option" value="2">Tijera</li>
+          </ul>
+        </div>
+        <div class="col-xs-12">
+          <span>Opcion elegida: <span id="opt"></span></span> <br>
+          <span>Opcion del rival: <span id="oponente"></span></span> <br>
+          <label for="probabilidad">Probabilidad</label><input type="checkbox" name="probabilidad" value="" id="probabilidad"> <br>
+          <span id="result"></span>
+        </div>
+      </div>
+    </div>
 
-    <span>Opcion elegida: <span id="opt"></span></span> <br>
-    <span>Opcion del rival: <span id="oponente"></span></span> <br>
-    <span id="result"></span>
+
 
 
 

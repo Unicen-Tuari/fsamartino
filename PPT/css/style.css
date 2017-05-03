@@ -1,0 +1,13 @@
+.main{
+  background-color: #323232;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.main li {
+  list-style: none;
+  cursor: pointer;
+}
