@@ -32,10 +32,11 @@ body{
   border-radius: 10px;
 }
 
+.title_game > img{
+  width: 50%;
+}
+
 .title_game{
-  color: red;
-  size: 2em;
-  font-weight: bolder;
   text-align: center;
 }
 
@@ -72,19 +73,14 @@ body{
   padding: 20px;
   background-color: #AFA;
   border-radius: 10px;
-  border: #FFF;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 100px;
 }
 
 .carousel-inner {
   text-align: center;
- }
+}
 
 .carousel .item > a {
-   display: inline-block;
+  display: inline-block;
 }
 
 .centro{
@@ -101,6 +97,7 @@ body{
 .logo_home > img{
   width: 50%;
 }
+
 @media(min-width: 992px){
   .button_and_price{
     display: block;
