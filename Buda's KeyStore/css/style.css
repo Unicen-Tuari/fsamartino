@@ -1,14 +1,14 @@
 body{
-  background-color: #5FD77F;
+  background-color: #444;
 }
 
 .navbar-default{
-  background-color: lightgrey;
+  background-color: #BFA;
 
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  background-color: #0F4;
+  background-color: #444;
   color: white;
 }
 
@@ -55,4 +55,48 @@ body{
 
 .bolder_table {
   font-weight: bolder;
+}
+
+.titulo{
+  text-align: center;
+  font-family: 'Arvo', serif;
+  font-weight: 800;
+}
+
+.subtitulo{
+  margin-top: 20px;
+}
+
+.main{
+  padding: 20px;
+  background-color: #AFA;
+  border-radius: 10px;
+  border: #FFF;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 100px;
+}
+
+.carousel-inner {
+  text-align: center;
+ }
+
+.carousel .item > a {
+   display: inline-block;
+}
+
+.centro{
+  text-align: center;
+}
+.carousel-pers{
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.logo_home{
+  text-align: center;
+}
+.logo_home > img{
+  width: 50%;
 }
