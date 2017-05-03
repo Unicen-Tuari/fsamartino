@@ -1,3 +1,6 @@
+body{
+  background-color: #555;
+}
 .main{
   background-color: #323232;
   color: #fff;
@@ -10,4 +13,14 @@
 .main li {
   list-style: none;
   cursor: pointer;
+}
+
+.verde{
+  color: green;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.margenx10{
+  margin: 10px;
 }
