@@ -48,7 +48,7 @@ body{
 }
 
 .price_button>p{
-  color: red;
+  color: #000;
   size: 2em;
   font-weight: bolder;
 }
@@ -99,4 +99,20 @@ body{
 }
 .logo_home > img{
   width: 50%;
+}
+@media(min-width: 992px){
+  .button_and_price{
+    display: block;
+    margin-top: 300px;
+  }
+}
+
+.button_and_price > p {
+  font-size: 36px;
+}
+
+.button_and_price{
+  background-color: #FDD;
+  border-radius: 10px;
+  padding-bottom: 5px;
 }
