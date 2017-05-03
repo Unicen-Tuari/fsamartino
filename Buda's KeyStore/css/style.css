@@ -29,6 +29,7 @@ body{
   width:96%;
   text-align: center;
   margin: 10px;
+  border-radius: 10px;
 }
 
 .title_game{
@@ -115,4 +116,9 @@ body{
   background-color: #FDD;
   border-radius: 10px;
   padding-bottom: 5px;
+}
+
+.table-bordered {
+  background-color: #FEE;
+  border-radius: 10px;
 }
