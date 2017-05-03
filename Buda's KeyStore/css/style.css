@@ -24,3 +24,35 @@ body{
 .boton {
   text-align: center;
 }
+
+.img_game {
+  width:96%;
+  text-align: center;
+  margin: 10px;
+}
+
+.title_game{
+  color: red;
+  size: 2em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.panel {
+  margin: 20px;
+}
+
+.price_button{
+  text-align: center;
+  flex-direction: column;
+}
+
+.price_button>p{
+  color: red;
+  size: 2em;
+  font-weight: bolder;
+}
+
+.bolder_table {
+  font-weight: bolder;
+}
