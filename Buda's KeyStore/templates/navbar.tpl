@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Buda's KeyStore</title>
-  <link href='images/icons/icon.ico' rel='shortcut icon' type='image/x-icon'/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-</head>
 <body>
   <div class="container nav_bar_cont">
     <nav class="navbar navbar-default">
@@ -21,11 +12,10 @@
           </button>
           <a class="navbar-brand" href="index.html"><img src="images/icons/logo_green.png" alt="buda_verde">Buda's KeyStore</a>
         </div>
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li ><a href="index.html"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+            <li class="active"><a href="index.html"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home <span class="sr-only">(current)</span></a></li>
             <li><a href="suggestion.html">Sugerencias</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Juegos <span class="caret"></span></a>
@@ -42,20 +32,3 @@
       </div><!-- /.container-fluid -->
     </nav>
   </div>
-  <div class="conteiner main">
-    <div class="row">
-      <div class="col-sm-12 col-md-10">
-        <p class="text-center">Pagina no encontrada, pulse <a href="index.html">AQUI</a> para volver al inicio</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-12 col-md-10 text-center">
-        <img src="images/404.png" alt="Pagina no encontrada">
-      </div>
-    </div>
-
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
-</html>
