@@ -16,7 +16,7 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href=""> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="suggestion/write">Sugerencias</a></li>
+            <li><a href="sugerencia/editar">Sugerencias</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Juegos <span class="caret"></span></a>
               <ul class="dropdown-menu">

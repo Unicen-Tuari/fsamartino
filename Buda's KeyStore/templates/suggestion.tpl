@@ -8,23 +8,23 @@
         <div class="panel panel-default">
           <div class="panel-heading">Sugerencias:</div>
           <div class="panel-body">
-            <form class="form-horizontal">
+            <form class="form-horizontal" action="sugerencia/enviar" method="post">
               <div class="form-group">
-                <label for="InputName" class="col-sm-3 col-md-3 control-label">Usuario</label>
+                <label for="tagUsr" class="col-sm-3 col-md-3 control-label">Usuario</label>
                 <div class="col-sm-9 col-md-9">
-                  <input type="text" class="form-control" name="userSuggest" placeholder="Ingrese su usuario">
+                  <input type="text" class="form-control" name="tagUsr" placeholder="Ingrese su nombre de usuario">
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputage" class="col-sm-3 col-md-3 control-label">Tipo de sugerencia</label>
+                <label for="typeSuggest" class="col-sm-3 col-md-3 control-label">Tipo de sugerencia</label>
                 <div class="col-sm-9 col-md-9">
                   <input type="text" class="form-control" name="typeSuggest" placeholder="Ej: felicitaciones, mejoras, experiencia personal">
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputsuggest" class="col-sm-3 col-md-3 control-label">Sugerencia</label>
+                <label for="textSuggest" class="col-sm-3 col-md-3 control-label">Sugerencia</label>
                 <div class="col-sm-9 col-md-9">
-                  <textarea class="form-control" rows="3"></textarea>
+                  <textarea class="form-control" name="textSuggest" rows="3"></textarea>
                 </div>
               </div>
               <div class="row">

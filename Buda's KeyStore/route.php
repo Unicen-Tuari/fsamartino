@@ -86,13 +86,14 @@ else{
       $controllerRegister->signIn();
     }
   }
-  if ($datos [configApp::$RESOURCE] == 'suggestion'){
-    if ($datos [configApp::$ACTION] == 'write'){
+  if ($datos [configApp::$RESOURCE] == 'sugerencia'){
+    if ($datos [configApp::$ACTION] == 'editar'){
       $controllerSuggestion->view_suggestion($session);
   }
-    if ($datos [configApp::$ACTION] == 'send'){
-      $controllerSuggestion->send_suggestion();
-      $controllerSuggestion->view_suggestion($session);
+    if ($datos [configApp::$ACTION] == 'enviar'){
+      $controllerSuggestion->insert_suggestion();
+      echo "aca entro";
+      //$controllerSuggestion->view_suggestion($session);
     }
   }
   if ($datos [configApp::$RESOURCE] == 'listGames'){
