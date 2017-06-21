@@ -3,7 +3,7 @@
   <div class="conteiner main">
     <div class="row">
       <div class="col-sm-12 col-md-10">
-        <p class="text-center">Pagina no encontrada, pulse <a href="index.html">AQUI</a> para volver al inicio</p>
+        <p class="text-center">Pagina no encontrada, pulse <a href="">AQUI</a> para volver al inicio</p>
       </div>
     </div>
     <div class="row">
