@@ -44,62 +44,62 @@ if($_GET[configApp::$ACTION] == ''){
   $controllerIndex->view_index($session);
 }
 else{
-  if ($datos[configApp::$RESOURCE] == 'version'){
-    if ($datos[configApp::$ACTION] == 'formulario'){
+  if ($datos[configApp::$RESOURCE] == configApp::$VERSION){
+    if ($datos[configApp::$ACTION] == configApp::$FORM){
       $controllerVersion->view_version($session);
     }
-    if ($datos[configApp::$ACTION] == 'insertVersion'){
+    if ($datos[configApp::$ACTION] == configApp::$INSERT_VERSION){
       $controllerVersion->insert_version();
       $controllerVersion->view_version($session);
     }
-    if ($datos[configApp::$ACTION] == 'modificar'){
+    if ($datos[configApp::$ACTION] == configApp::$MODIFY){
     $controllerVersion->get_modificated_version($datos[configApp::$PARAMETERS],$session);
     }
-    if ($datos[configApp::$ACTION] == 'modifyVersion'){
+    if ($datos[configApp::$ACTION] == configApp::$MODIFY_VERSION){
     $controllerVersion->modify_version($datos[configApp::$PARAMETERS],$session);
     }
   }
-  if ($datos[configApp::$RESOURCE] == 'juego'){
-    if ($datos[configApp::$ACTION] == 'detalles'){
+  if ($datos[configApp::$RESOURCE] == configApp::$GAME){
+    if ($datos[configApp::$ACTION] == configApp::$DETAILS){
       $controllerGame->showDetailedGame($datos[configApp::$PARAMETERS],$session);
     }
-    if ($datos[configApp::$ACTION] == 'formulario'){
+    if ($datos[configApp::$ACTION] == configApp::$FORM){
       $controllerFormGame->view_form_game($session);
     }
-    if ($datos[configApp::$ACTION] == 'insertGame'){
+    if ($datos[configApp::$ACTION] == configApp::$INSERT_GAME){
       $controllerFormGame->insert_game();
       $controllerFormGame->view_form_game($session);
     }
   }
-  if ($datos[configApp::$RESOURCE] == 'not_found'){
+  if ($datos[configApp::$RESOURCE] == configApp::$NOT_FOUND){
     $controllerNotFound->view_notFound($session);
   }
-  if ($datos[configApp::$RESOURCE] == 'login'){
-    if ($datos [configApp::$ACTION] == 'register'){
+  if ($datos[configApp::$RESOURCE] == configApp::$LOG_IN){
+    if ($datos [configApp::$ACTION] == configApp::$REGISTER){
       $controllerRegister->view_register($session);
     }
-    if ($datos [configApp::$ACTION] == 'insertNewUsr'){
+    if ($datos [configApp::$ACTION] == configApp::$INSERT_NEW_USER){
       $controllerRegister->insertNewUsr();
       $controllerRegister->view_register($session);
     }
-    if ($datos [configApp::$ACTION] == 'signin'){
+    if ($datos [configApp::$ACTION] == configApp::$SIGN_IN){
+      echo "aca entro";
       $controllerRegister->signIn();
     }
   }
-  if ($datos [configApp::$RESOURCE] == 'sugerencia'){
-    if ($datos [configApp::$ACTION] == 'editar'){
+  if ($datos [configApp::$RESOURCE] == configApp::$SUGGESTION){
+    if ($datos [configApp::$ACTION] == configApp::$EDIT){
       $controllerSuggestion->view_suggestion($session);
   }
-    if ($datos [configApp::$ACTION] == 'enviar'){
+    if ($datos [configApp::$ACTION] == configApp::$SEND){
       $controllerSuggestion->insert_suggestion();
-      echo "aca entro";
-      //$controllerSuggestion->view_suggestion($session);
+      $controllerSuggestion->view_suggestion($session);
     }
   }
-  if ($datos [configApp::$RESOURCE] == 'listGames'){
+  if ($datos [configApp::$RESOURCE] == configApp::$LIST_GAMES){
     $controllerListGames->show_listGames($session);
 }
-  if ($datos [configApp::$RESOURCE] == 'logout'){
+  if ($datos [configApp::$RESOURCE] == configApp::$LOG_OUT){
     session_destroy();
     $controllerIndex->view_index($session);
   }

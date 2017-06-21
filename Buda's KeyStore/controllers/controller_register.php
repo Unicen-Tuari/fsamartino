@@ -20,7 +20,7 @@ class controller_register{
     else
       return false;
   }
-  
+
   function insertNewUsr(){
     if ($this->validatePost($_POST['email']))
       $email=$_POST['email'];

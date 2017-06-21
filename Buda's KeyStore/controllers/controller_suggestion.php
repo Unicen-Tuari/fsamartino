@@ -34,7 +34,7 @@ class controller_suggestion{
     if ($this->validatePost($_POST['textSuggest']))
       $textSuggest=$_POST['textSuggest'];
         $this->modelSuggestion->insertSuggestion($tagUsr, $typeSuggest, $textSuggest);
-        header("Location: ../index");
+        header("Location: ..");
   }
 }
 
