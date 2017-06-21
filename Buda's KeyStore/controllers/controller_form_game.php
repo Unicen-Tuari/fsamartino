@@ -11,7 +11,12 @@ class controller_form_game{
   }
 
   function view_form_game($session){
-    $this->viewFormGame->get_form_game($session);
+    if (isset($_SESSION['loged'])){
+      $this->viewFormGame->get_form_game($session);    }
+    else{
+      header("location: ../not_found");
+      die();
+    }
   }
 
   private function validatePost($element){

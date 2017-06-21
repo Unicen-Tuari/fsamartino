@@ -8,13 +8,7 @@ class controller_index{
   }
 
   function view_index($session){
-    if (isset($_SESSION['loged'])){
-      $this->viewIndex->get_index($session);
-    }
-    else{
-      header("location: http://localhost/proyect/fsamartino/Buda's%20KeyStore/not_found");
-      die();
-    }
+      $this->viewIndex->get_index($session);  
   }
 }
 ?>

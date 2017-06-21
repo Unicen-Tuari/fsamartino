@@ -44,7 +44,7 @@ class controller_register{
     if(password_verify($passwd, $user['passwd'])){
       session_start();
       $_SESSION['loged'] = TRUE;
-      header("location: http://localhost/proyect/fsamartino/Buda's%20KeyStore/");
+      header("location: ..");
     }
   }
 }

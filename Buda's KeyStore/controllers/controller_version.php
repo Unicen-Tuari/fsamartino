@@ -11,8 +11,15 @@ class controller_version{
   }
 
   function view_version($session){
-    $this->viewVersion->get_version($session);
+    if (isset($_SESSION['loged'])){
+      $this->viewVersion->get_version($session);
+    }
+    else{
+      header("location: ../not_found");
+      die();
+    }
   }
+
 
   function get_modificated_version($idVersion,$session){
     $this->viewVersion->get_modify_version($idVersion,$session);
@@ -29,7 +36,7 @@ class controller_version{
     if ($this->validatePost($_POST['freeCoins']))
         $freeCoins=$_POST['freeCoins'];
         $this->modelVersion->modifyVersion($nameVersion, $price, $online, $players, $freeCoins, $idVersion);
-        header("Location: http://localhost/proyect/fsamartino/Buda's%20KeyStore/juego/detalles/2");
+        header("Location: ../../juego/detalles/2");
   }
 
   private function validatePost($element){

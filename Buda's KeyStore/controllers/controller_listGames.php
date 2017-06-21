@@ -12,8 +12,14 @@ class controller_listGames{
   }
 
   function show_listGames($session){
-    $juegos=$this->modelListGames->consultAllGames();
-    $this->viewListGames->get_listGames($session,$juegos);
+    if (isset($_SESSION['loged'])){
+      $juegos=$this->modelListGames->consultAllGames();
+      $this->viewListGames->get_listGames($session,$juegos);
+    }
+    else{
+      header("location: not_found");
+      die();
+    }
   }
 }
  ?>

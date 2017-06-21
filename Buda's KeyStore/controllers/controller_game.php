@@ -15,8 +15,14 @@ class controller_game{
   }
 
   function showDetailedGame ($id_game,$session){
-    $container=$this->getDetailedGame($id_game);
-    $this->viewGame->get_game($container,$session);
+    if (isset($_SESSION['loged'])){
+      $container=$this->getDetailedGame($id_game);
+      $this->viewGame->get_game($container,$session);
+    }
+    else{
+      header("location: ../../not_found");
+      die();
+    }
   }
 }
 

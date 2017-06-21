@@ -7,7 +7,13 @@ class controller_suggestion{
     $this->viewSuggestion=new view_suggestion();
   }
   function view_suggestion($session){
-    $this->viewSuggestion->get_suggestion($session);
+    if (isset($_SESSION['loged'])){
+        $this->viewSuggestion->get_suggestion($session);
+    }
+    else{
+      header("location: ../not_found");
+      die();
+    }
   }
 }
 
